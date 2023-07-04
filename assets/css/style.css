@@ -3,6 +3,19 @@ body {
   font-size: 16px;
 }
 
+
+.p-5 {
+  padding: 3rem!important;
+  text-align: center;
+  background-color: #06aed5;
+  color: white;
+}
+
+.notification{
+  text-align: center;
+  color: red;
+}
+
 textarea {
   background: transparent;
   border: none;
@@ -10,6 +23,15 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+}
+
+.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    width: 100%;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 10px solid black;
 }
 
 .description {
